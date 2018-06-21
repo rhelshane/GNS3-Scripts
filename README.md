@@ -14,7 +14,7 @@ This script is designed to work on Ubuntu 18.04 LTS. It should be run under root
 Change to root user (if necessary) and clone Git repository:
 ```
 sudo su - 
-git clone git@github.com:rhelshane/GNS3-Scripts.git
+git clone https://github.com/rhelshane/Install-GNS3-Server.git
 ```
 Enter the new directory, change variables (**GNS_USER** and **GNS_PASS** at a minimum), update permissions, and run setup.sh:
 ```
