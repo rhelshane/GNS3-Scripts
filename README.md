@@ -1,6 +1,15 @@
 # GNS3-Scripts
 ## Requirements
 This script is designed to work on Ubuntu 18.04 LTS. It should be run under root (not suitable for a production environment).
+## Actions Performed
+* Update system packages
+* Install GNS3-Server
+* Install Docker
+* Install Dynamips
+* Install uBridge
+* Install VPCS
+* Configure UFW
+* Configure GNS3
 ## Installation
 Change to root user (if necessary) and clone Git repository:
 ```
