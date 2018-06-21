@@ -1,4 +1,4 @@
-# GNS3-Scripts
+# Install GNS3 Server 
 ## Requirements
 This script is designed to work on Ubuntu 18.04 LTS. It should be run under root (not suitable for a production environment).
 ## Actions Performed
