@@ -18,7 +18,7 @@ VPCS_URL="http://sourceforge.net/projects/vpcs/files/0.8/vpcs_0.8b_Linux64/downl
 
 GNS_USER="student749"
 GNS_PASS="vVx5611"
-GNS_PORT="3082"
+GNS_PORT="3080"
 GNS_VERS="2.1.8"
 SSH_PORT="22"
 
