@@ -7,7 +7,7 @@ Change to root user (if necessary) and clone Git repository:
 sudo su - 
 git clone git@github.com:rhelshane/GNS3-Scripts.git
 ```
-Enter the new directory, change variables (GNS_USER and GNS_PASS at a minimum), update permissions, and run setup.sh:
+Enter the new directory, change variables (**GNS_USER** and **GNS_PASS** at a minimum), update permissions, and run setup.sh:
 ```
 cd GNS3-Scripts
 vi setup.sh
