@@ -13,7 +13,7 @@ APPLIANCE_DIR="$HOME/GNS3/Appliances"
 PROJECT_DIR="$HOME/GNS3/Project"
 CONFIG_DIR="$HOME/.config"
 LOG_FILE="install.log"
-VPCS_URL="http://sourceforge.net/projects/vpcs/files/0.8/vpcs_0.8b_Linux64/download"
+VPCS_URL="http://sourceforge.net/projects/vpcs/files/0.6/vpcs_0.6_Linux64/download"
 
 
 GNS_USER="student749"
@@ -98,7 +98,7 @@ function installUbridge()
 function installVPCS()
 {
   echo "###### Installing VPCS" | tee -a $LOG_FILE
-  wget -q $VPCS_URL >> $LOG_FILE
+  wget -q $VPCS_URL >> $LOG_FILE || echo "Error downloading VPCS."
   mv download vpcs >> $LOG_FILE
   chmod +x vpcs >> $LOG_FILE
   mv vpcs /usr/local/bin/ 
