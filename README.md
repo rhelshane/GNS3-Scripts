@@ -18,7 +18,7 @@ git clone https://github.com/rhelshane/Install-GNS3-Server.git
 ```
 Enter the new directory, change variables (**GNS_USER** and **GNS_PASS** at a minimum), update permissions, and run setup.sh:
 ```
-cd GNS3-Scripts
+cd Install-GNS3-Server
 vi setup.sh
 chmod 744 setup.sh
 ./setup.sh
