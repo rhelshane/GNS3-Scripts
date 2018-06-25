@@ -2,3 +2,6 @@ python-pip
 python3-pip
 make
 libpcap-dev
+qemu-kvm
+bridge-utils
+virtinst
