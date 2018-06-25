@@ -132,6 +132,7 @@ function configureGNS3()
   sed -i "s@___IMAGE_DIR___@$IMAGE_DIR@" GNS3.conf
   sed -i "s@___APPLIANCE_DIR___@$APPLIANCE_DIR@" GNS3.conf
   sed -i "s@___PROJECT_DIR___@$PROJECT_DIR@" GNS3.conf
+  sed -i "s/^enable_kvm.*$/enable_kvm = False/" GNS3.conf
   cp GNS3.conf $CONFIG_DIR || echo "Error copying GNS3.conf"
 }
 
